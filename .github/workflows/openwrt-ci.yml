@@ -83,6 +83,9 @@ jobs:
           CONFIG_PACKAGE_luci-app-ttyd=y
           CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
+          # CONFIG_v2ray-plugin_INCLUDE_GOPROXY is not set
+          # CONFIG_XRAY_CORE_COMPRESS_GOPROXY is not set
+          # CONFIG_UnblockNeteaseMusicGo_INCLUDE_GOPROXY is not set
           #
           # ========================固件定制部分结束========================
           #
