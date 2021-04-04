@@ -6,9 +6,9 @@
 # Copyright (C) 2020 KFERMercer
 #
 name: OpenWrt-CI
-on:
-  push:
-    branches: 
+#on:
+#  push:
+#    branches: 
       - master
   # schedule:
   #   - cron: 0 20 * * *
@@ -86,6 +86,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ttyd=y
           CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
+          CONFIG_PACKAGE_luci-app-flowoffload=n
           #
           # ========================固件定制部分结束========================
           #
