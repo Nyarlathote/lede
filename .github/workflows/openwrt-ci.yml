@@ -88,6 +88,9 @@ jobs:
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-flowoffload=n
           CONFIG_PACKAGE_baidupcs-web=y
+          CONFIG_PACKAGE_UnblockNeteaseMusic=n
+          CONFIG_PACKAGE_UnblockNeteaseMusicGo=n
+          CONFIG_PACKAGE_adbyby=n
           #
           # ========================固件定制部分结束========================
           #
